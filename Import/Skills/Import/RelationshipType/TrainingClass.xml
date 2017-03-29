@@ -280,7 +280,7 @@
       <label xml:lang="en">Date</label>
       <name>startdate</name>
       <order_by>1</order_by>
-      <pattern>MM/dd/yyyy</pattern>
+      <!--<pattern>MM/dd/yyyy</pattern>-->
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>6</sort_order>

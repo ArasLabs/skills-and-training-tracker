@@ -45,7 +45,7 @@
       <is_required>0</is_required>
       <label xml:lang="en">Expiration Date</label>
       <name>expires</name>
-      <pattern>MM/dd/yyyy</pattern>
+      <!--<pattern>MM/dd/yyyy</pattern>-->
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>3584</sort_order>

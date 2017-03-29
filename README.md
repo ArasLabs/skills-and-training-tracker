@@ -20,6 +20,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v2.2](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.2) | Import issues fixed, smoke tested in 9.3
 [v2.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.1) | Fixed for Compatibilty with Aras Innovator 9.1.0 SP6
 [v2.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.0) | Edited ItemTypes to allow Import into 9.1.0 SP6. Compatibility not fully tested.
 [v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | Problems with .mf file addressed.
@@ -29,6 +30,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v2.2](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.2) | 9.2, 9.3
 [v2.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.1) | 9.1.0 SP6
 [v2.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.0) | 9.1.0 SP6
 [v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | 8.1.1
