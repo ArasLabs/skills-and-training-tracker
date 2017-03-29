@@ -20,6 +20,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v2.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.0) | Edited ItemTypes to allow Import into 9.1.0 SP6. Compatibility not fully tested.
 [v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | Problems with .mf file addressed.
 [v1.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.0) | Initial release - packaged by Peter Schroer after using Kostja's package in the MyInnovator.com and Aras Univercity web site
 
@@ -27,6 +28,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v2.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v2.0) | 9.1.0 SP6
 [v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | 8.1.1
 [v1.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.0) | 8.1.1
 
