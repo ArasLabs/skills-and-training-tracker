@@ -1,0 +1,82 @@
+<AML>
+ <Item type="Life Cycle Map" id="60C7F89085FF4CCB8942A9F5A006A101" action="add">
+  <name>TrainingCourse</name>
+  <start_state keyed_name="Planned" type="Life Cycle State">2AE3894352BA40CE93090F600E062443</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="68C1247E2EAF4D3E82E5EBF2748C1B01" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Active</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <x>190</x>
+    <y>37</y>
+   </Item>
+   <Item type="Life Cycle State" id="6BBA7D14EE944DE4A4099B9BB57CDAAD" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Obsolete</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <x>393</x>
+    <y>37</y>
+   </Item>
+   <Item type="Life Cycle State" id="2AE3894352BA40CE93090F600E062443" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Planned</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <x>21</x>
+    <y>37</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="76A36FA144854B9A9BD73D4D741DE998" action="add">
+    <from_state keyed_name="Active" type="Life Cycle State">68C1247E2EAF4D3E82E5EBF2748C1B01</from_state>
+    <get_comment>0</get_comment>
+    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <segments>235,65|348,65</segments>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <to_state keyed_name="Obsolete" type="Life Cycle State">6BBA7D14EE944DE4A4099B9BB57CDAAD</to_state>
+    <x>71</x>
+    <y>31</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="6C12F63C170F414EBF92F894A7FBCD33" action="add">
+    <from_state keyed_name="Active" type="Life Cycle State">68C1247E2EAF4D3E82E5EBF2748C1B01</from_state>
+    <get_comment>0</get_comment>
+    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <segments>147,36|80,36</segments>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <to_state keyed_name="Planned" type="Life Cycle State">2AE3894352BA40CE93090F600E062443</to_state>
+    <x>-111</x>
+    <y>-13</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="D1D12284911142DE8C070865F28F424C" action="add">
+    <from_state keyed_name="Obsolete" type="Life Cycle State">6BBA7D14EE944DE4A4099B9BB57CDAAD</from_state>
+    <get_comment>0</get_comment>
+    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <segments>347,33|246,33</segments>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <to_state keyed_name="Active" type="Life Cycle State">68C1247E2EAF4D3E82E5EBF2748C1B01</to_state>
+    <x>-132</x>
+    <y>-17</y>
+   </Item>
+  
+   <Item type="Life Cycle Transition" id="A66364A0137E4994A3A916B2F1C2C1A7" action="add">
+    <from_state keyed_name="Planned" type="Life Cycle State">2AE3894352BA40CE93090F600E062443</from_state>
+    <get_comment>0</get_comment>
+    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <segments>78,66|150,66</segments>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</source_id>
+    <to_state keyed_name="Active" type="Life Cycle State">68C1247E2EAF4D3E82E5EBF2748C1B01</to_state>
+    <x>55</x>
+    <y>32</y>
+   </Item></Relationships>
+ </Item>
+</AML>

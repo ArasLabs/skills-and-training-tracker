@@ -1,0 +1,178 @@
+<AML>
+ <Item type="ItemType" id="9A297743F8384867B41F9408A0B95582" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>SKILL</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Skills</label>
+  <manual_versioning>0</manual_versioning>
+  <name>Skill</name>
+  <open_icon>../images/Icons/16x16/16x16_logging.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="51DF1406969E47399016277A2C2EB13A" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Skill" type="Permission">980BC6CE75704D8DA9967D87B9841579</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="Can Add" id="D0F6349B4613426290934C562127F211" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="Property" id="F741069A6A904A3B942ED136CE5F7E0C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>350</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Description</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+    <stored_length>128</stored_length>
+   </Item>
+   <Item type="Property" id="982804CA25D64F59B32C9ADDC976A31D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>Skill Id</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+   <Item type="Property" id="B486269D4AC1435094F9CA39B84BDDE6" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>160</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Certification Renewal (months)</label>
+    <name>renewal_period</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="TOC Access" id="45EA9CB24C7F45158BA20714793D32FE" action="add">
+    <category>Skills Management</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="View" id="49515337BA9B424FBD4FDD494C878971" action="add">
+    <client>js</client>
+    <related_id keyed_name="Skill" type="Form">4EBE4484EEDB459F947D3064021202E8</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="9A297743F8384867B41F9408A0B95582" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='9A297743F8384867B41F9408A0B95582' and name='managed_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label></label>
+    <name>managed_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>333</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9A297743F8384867B41F9408A0B95582' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9A297743F8384867B41F9408A0B95582' and name='state'">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Skill" type="ItemType" name="Skill">9A297743F8384867B41F9408A0B95582</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

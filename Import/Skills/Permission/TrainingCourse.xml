@@ -1,0 +1,21 @@
+<AML>
+ <Item type="Permission" id="BDD6AA02812041839EFE1F8A5C98EF62" action="add">
+  <is_private>0</is_private>
+  <name>TrainingCourse</name>
+  <Relationships>
+   <Item type="Access" id="95F3726D4D2F455EB1D2F599EE4B0E14" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Permission">BDD6AA02812041839EFE1F8A5C98EF62</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

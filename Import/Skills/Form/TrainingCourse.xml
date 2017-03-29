@@ -1,0 +1,224 @@
+<AML>
+ <Item type="Form" id="7DFC77270534476CB12D008E59CCBD33" action="add">
+  <height>250</height>
+  <name>TrainingCourse</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>750</width>
+  <Relationships>
+   <Item type="Body" id="2FAD3843F88B47A396B16BD8FE8B0A86" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingCourse" type="Form">7DFC77270534476CB12D008E59CCBD33</source_id>
+    <Relationships>
+     <Item type="Field" id="D8750FBA114A4E3EB243A7907DCB41DD" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>6</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Cost: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>cost</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="cost" type="Property">310FBD1C7AE14249865FA394601AC2A0</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>3076</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>451</x>
+      <y>72</y>
+     </Item>
+     <Item type="Field" id="B0F3C5FBCFA1402AA5455E2C15798B90" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>6</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Duration (days): </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>days</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="days" type="Property">84CAEB0B87DB420A8BF1737FBFFA136D</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>3</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>187</x>
+      <y>70</y>
+     </Item>
+     <Item type="Field" id="25A14E91D97A4E319412B2E933937BA1" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">A2A75C005C124ECABE692DB52A641A1B</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>4</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>80</textarea_cols>
+      <textarea_rows>9</textarea_rows>
+      <x>187</x>
+      <y>108</y>
+     </Item>
+     <Item type="Field" id="205AD2EF7D70402990E0BC5EE6857179" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
+<tr><td colspan='2'>
+<script>
+  document.write('<img hspace="20" vspace="20" src="' + top.aras.getItemProperty(document.itemType,'large_icon') + '">');
+</Script>
+</td></tr>
+<tr><td colspan='2'><img src='../images/lines/wvline.gif'></td></tr>
+<tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
+<tr><td><img src='../images/icons/other/1x1.gif' width='20' height='1'>
+<td width='150'><p class='vbig'><b>
+<script>
+  var labelIT = top.aras.getItemProperty(document.itemType, 'label');
+  if (labelIT == '') labelIT = document.itemTypeName;
+  document.write(labelIT);
+</Script>
+</b></p>
+</td></tr></table>
+]]></html_code>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+     </Item>
+     <Item type="Field" id="A5D3FB5F644C4FA0B0838E68EF6E7276" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>10</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Class ID</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>item_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">F7DD243127914445821D90B65FEEBC24</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>1</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>11</y>
+     </Item>
+     <Item type="Field" id="2FC1D100F5F84D7E8E53082715BBE55F" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Last Modified</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>modified_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>1156</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>26</x>
+      <y>125</y>
+     </Item>
+     <Item type="Field" id="1BED2B5A300D44EA9212DABA2166552A" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>modified_on</name>
+      <positioning>absolute</positioning>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>1028</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>23</x>
+      <y>162</y>
+     </Item>
+     <Item type="Field" id="63AB9734AFC5436B9B1FA69DDF854E45" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>48</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_visible>1</is_visible>
+      <label>Class Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>name</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="name" type="Property">7902A5625DEB44BBBBD05274B9FF5388</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="2FAD3843F88B47A396B16BD8FE8B0A86" type="Body">2FAD3843F88B47A396B16BD8FE8B0A86</source_id>
+      <tab_index>2</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>280</x>
+      <y>10</y>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="2FC1D100F5F84D7E8E53082715BBE55F" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>modified_by_id</name>
+    <source_id type="ItemType" keyed_name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="1BED2B5A300D44EA9212DABA2166552A" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>modified_on</name>
+    <source_id type="ItemType" keyed_name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

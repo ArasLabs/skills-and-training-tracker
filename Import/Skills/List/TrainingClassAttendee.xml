@@ -1,0 +1,37 @@
+<AML>
+ <Item type="List" id="63023205172446CAB8A4761AE6E37C05" action="add">
+  <name>TrainingClassAttendee</name>
+  <Relationships>
+   <Item type="Value" id="9E6621BE8C014D1AB1591D20DF3F432F" action="add">
+    <label>Attended</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="TrainingClassAttendee" type="List">63023205172446CAB8A4761AE6E37C05</source_id>
+    <value>Attended</value>
+   </Item>
+   <Item type="Value" id="3B9CCAC285D84B0BADF8D443A3150E3D" action="add">
+    <label>Completed</label>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="TrainingClassAttendee" type="List">63023205172446CAB8A4761AE6E37C05</source_id>
+    <value>Completed</value>
+   </Item>
+  
+   <Item type="Value" id="16F31E58830844A18274E693B454C9F7" action="add">
+    <label>Confirmed</label>
+    <sort_order>8</sort_order>
+    <source_id keyed_name="TrainingClassAttendee" type="List">63023205172446CAB8A4761AE6E37C05</source_id>
+    <value>Confirmed</value>
+   </Item>
+   <Item type="Value" id="C80624FEEE684CD5BC70339DABC84AD4" action="add">
+    <label>Registered</label>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="TrainingClassAttendee" type="List">63023205172446CAB8A4761AE6E37C05</source_id>
+    <value>Registered</value>
+   </Item>
+   <Item type="Value" id="D97649E0AED84E438781289439DF58AE" action="add">
+    <label>Wait Listed</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="TrainingClassAttendee" type="List">63023205172446CAB8A4761AE6E37C05</source_id>
+    <value>Wait Listed</value>
+   </Item></Relationships>
+ </Item>
+</AML>
