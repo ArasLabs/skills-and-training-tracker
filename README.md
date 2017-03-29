@@ -20,12 +20,14 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | Problems with .mf file addressed.
 [v1.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.0) | Initial release - packaged by Peter Schroer after using Kostja's package in the MyInnovator.com and Aras Univercity web site
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
+[v1.1](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.1) | 8.1.1
 [v1.0](https://github.com/ArasLabs/skills-and-training-tracker/releases/tag/v1.0) | 8.1.1
 
 ## Installation
