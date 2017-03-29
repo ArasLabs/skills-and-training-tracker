@@ -1,0 +1,67 @@
+﻿<AML>
+ <Item type="ItemType" id="BB0F69D8F3A34F0E98809EE554351D80" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>TRAININGCOURSE_FILE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>1</is_relationship>
+  <is_versionable>0</is_versionable>
+  <manual_versioning>0</manual_versioning>
+  <name>TrainingCourse File</name>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>1</use_src_access>
+  <Relationships>
+   <Item type="Property" id="DA128FE99D054FF796E9C3513BE4D81D" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <column_width>300</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Description</label>
+    <name>description</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>0</sort_order>
+    <source_id keyed_name="TrainingCourse File" type="ItemType" name="TrainingCourse File">BB0F69D8F3A34F0E98809EE554351D80</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="BB0F69D8F3A34F0E98809EE554351D80" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='BB0F69D8F3A34F0E98809EE554351D80' and name='related_id'">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <name>related_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="TrainingCourse File" type="ItemType" name="TrainingCourse File">BB0F69D8F3A34F0E98809EE554351D80</source_id>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="View" action="delete" where="source_id='BB0F69D8F3A34F0E98809EE554351D80'"></Item>
+ <Item type="Form" action="delete" where="name='TrainingCourse File'"></Item>
+</AML>

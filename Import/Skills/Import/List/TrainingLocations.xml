@@ -1,22 +1,26 @@
-<AML>
+﻿<AML>
  <Item type="List" id="10C8B1D6D3A748FB96429647B44887AB" action="add">
+  <classification>/*</classification>
   <name>TrainingLocations</name>
   <Relationships>
    <Item type="Value" id="FE12979F8F984BA79B3BF6E74D5819AC" action="add">
-    <label>Headquarters</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Headquarters</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="TrainingLocations" type="List">10C8B1D6D3A748FB96429647B44887AB</source_id>
     <value>Headquarters</value>
    </Item>
    <Item type="Value" id="0E742CC938C3453583F279D589A739B5" action="add">
-    <label>Hotel</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Hotel</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="TrainingLocations" type="List">10C8B1D6D3A748FB96429647B44887AB</source_id>
     <value>Hotel</value>
    </Item>
   
    <Item type="Value" id="8704ACFA07F44178BC096B603D6AB280" action="add">
-    <label>Training Center 1</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Training Center 1</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="TrainingLocations" type="List">10C8B1D6D3A748FB96429647B44887AB</source_id>
     <value>Training Center 1</value>

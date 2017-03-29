@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Grid" id="9098B81853824306A503B0FF04000CA2" action="add">
   <name>Skill Certified Identities</name>
   <query><![CDATA[<Item type='Identity' action='get' select='keyed_name'><Relationships><Item type='Identity Skills' select='expires,related_id' action='get'><related_id><Item type='Skill' action='get' id='{id}' select='id'></Item></related_id></Item></Relationships></Item>]]></query>
@@ -6,7 +6,7 @@
    <Item type="Grid Column" id="10A106B16A4F417897E59F5192A1FD64" action="add">
     <align>left</align>
     <datatype>default</datatype>
-    <label>Name</label>
+    <label xml:lang="en">Name</label>
     <property>keyed_name</property>
     <sort_order>10</sort_order>
     <source_id keyed_name="Skill Certified Identities" type="Grid">9098B81853824306A503B0FF04000CA2</source_id>
@@ -18,7 +18,7 @@
    <Item type="Grid Column" id="4004EC55E7EB43DCB1A78A8AF446CB76" action="add">
     <align>left</align>
     <datatype>default</datatype>
-    <label>Id</label>
+    <label xml:lang="en">Id</label>
     <property>id</property>
     <sort_order>5</sort_order>
     <source_id keyed_name="Skill Certified Identities" type="Grid">9098B81853824306A503B0FF04000CA2</source_id>
@@ -30,7 +30,7 @@
    <Item type="Grid Column" id="DDC18B03611A4FCC8D932206AE4EB51F" action="add">
     <align>center</align>
     <datatype>default</datatype>
-    <label>Certification Expires</label>
+    <label xml:lang="en">Certification Expires</label>
     <property>expires</property>
     <sort_order>40</sort_order>
     <source_id keyed_name="Skill Certified Identities" type="Grid">9098B81853824306A503B0FF04000CA2</source_id>

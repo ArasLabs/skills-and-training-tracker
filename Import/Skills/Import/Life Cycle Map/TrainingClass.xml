@@ -1,9 +1,11 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="F992FF5CBCAB447087BCE216CFBE3625" action="add">
+  <classification>/*</classification>
   <name>TrainingClass</name>
   <start_state keyed_name="Planned" type="Life Cycle State">4DD2B1580CD649B0BD82ED4F30B113F6</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="C2CDB74EEA6849879152F29DA1869F3D" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Cancelled</name>
     <set_is_released>0</set_is_released>
@@ -14,6 +16,7 @@
     <y>17</y>
    </Item>
    <Item type="Life Cycle State" id="E3AC7EAAAE62406E848F75D37CBBAE7D" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Completed</name>
     <set_is_released>0</set_is_released>
@@ -24,6 +27,7 @@
     <y>87</y>
    </Item>
    <Item type="Life Cycle State" id="4DD2B1580CD649B0BD82ED4F30B113F6" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Planned</name>
     <set_is_released>0</set_is_released>
@@ -34,49 +38,53 @@
     <y>39</y>
    </Item>
    <Item type="Life Cycle Transition" id="0A708EAF5E664087809B06D55C16948E" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Cancelled" type="Life Cycle State">C2CDB74EEA6849879152F29DA1869F3D</from_state>
     <get_comment>0</get_comment>
-    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
     <segments>114,29</segments>
     <sort_order>384</sort_order>
     <source_id keyed_name="TrainingClass" type="Life Cycle Map">F992FF5CBCAB447087BCE216CFBE3625</source_id>
     <to_state keyed_name="Planned" type="Life Cycle State">4DD2B1580CD649B0BD82ED4F30B113F6</to_state>
-    <x>-137</x>
-    <y>-1</y>
+    <x>-123</x>
+    <y>-9</y>
    </Item>
    <Item type="Life Cycle Transition" id="CACBDC37694243338AE34BA327FC9B75" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Completed" type="Life Cycle State">E3AC7EAAAE62406E848F75D37CBBAE7D</from_state>
     <get_comment>0</get_comment>
-    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
     <segments>133,99</segments>
     <sort_order>512</sort_order>
     <source_id keyed_name="TrainingClass" type="Life Cycle Map">F992FF5CBCAB447087BCE216CFBE3625</source_id>
     <to_state keyed_name="Planned" type="Life Cycle State">4DD2B1580CD649B0BD82ED4F30B113F6</to_state>
-    <x>-120</x>
-    <y>-1</y>
+    <x>-117</x>
+    <y>20</y>
    </Item>
   
    <Item type="Life Cycle Transition" id="C35D6025A66940AC9843AF9A316F7336" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Planned" type="Life Cycle State">4DD2B1580CD649B0BD82ED4F30B113F6</from_state>
     <get_comment>0</get_comment>
-    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
     <segments>186,51</segments>
     <sort_order>128</sort_order>
     <source_id keyed_name="TrainingClass" type="Life Cycle Map">F992FF5CBCAB447087BCE216CFBE3625</source_id>
     <to_state keyed_name="Cancelled" type="Life Cycle State">C2CDB74EEA6849879152F29DA1869F3D</to_state>
-    <x>42</x>
-    <y>-1</y>
+    <x>37</x>
+    <y>-2</y>
    </Item>
    <Item type="Life Cycle Transition" id="D621B1466D5942929AF183F486C8637B" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Planned" type="Life Cycle State">4DD2B1580CD649B0BD82ED4F30B113F6</from_state>
     <get_comment>0</get_comment>
-    <role>256B634AB20547E7B94AD763C49FF385</role>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
     <segments>187,51</segments>
     <sort_order>256</sort_order>
     <source_id keyed_name="TrainingClass" type="Life Cycle Map">F992FF5CBCAB447087BCE216CFBE3625</source_id>
     <to_state keyed_name="Completed" type="Life Cycle State">E3AC7EAAAE62406E848F75D37CBBAE7D</to_state>
-    <x>58</x>
-    <y>15</y>
+    <x>35</x>
+    <y>21</y>
    </Item></Relationships>
  </Item>
 </AML>

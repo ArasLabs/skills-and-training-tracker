@@ -1,6 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="7CE864E1E1254E899A93BA3AF0F8B86B" action="add">
-  <height>200</height>
+  <classification>/*</classification>
+  <height>350</height>
   <name>TrainingClass</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>800</width>
@@ -10,20 +11,23 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="TrainingClass" type="Form">7CE864E1E1254E899A93BA3AF0F8B86B</source_id>
     <Relationships>
      <Item type="Field" id="AE02DB6AB9BB4779A968451CB347D34C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Cost: </label>
+      <label xml:lang="en">Cost: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>coursecost</name>
@@ -39,14 +43,16 @@
      <Item type="Field" id="2446AA9E07084C85B3DA5AFB1B60E5D0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>4</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Class Duration: </label>
+      <label xml:lang="en">Class Duration: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>coursedays</name>
@@ -62,13 +68,15 @@
      <Item type="Field" id="F4B319CF1A45402980FDAD5E5B2A224A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Coursedescription</label>
+      <label xml:lang="en">Coursedescription</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>coursedescription</name>
@@ -86,14 +94,16 @@
      <Item type="Field" id="A13DBA5FBF0344928B1FD65A57582440" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>48</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Training Course Name</label>
+      <label xml:lang="en">Training Course Name</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>coursename</name>
@@ -109,13 +119,15 @@
      <Item type="Field" id="4B3E30E72D55460B99C81AFFE7BFA3C3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Instructor</label>
+      <label xml:lang="en">Instructor</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>instructor</name>
@@ -129,6 +141,7 @@
      </Item>
      <Item type="Field" id="951FE283EC1C4C22A96C4153F752A4EE" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -148,6 +161,7 @@
 </b></p>
 </td></tr></table>
 ]]></html_code>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
       <list_no_blank>0</list_no_blank>
       <name>item_info</name>
@@ -161,13 +175,15 @@
      <Item type="Field" id="76FFE0BCBE454987ACDF1552556A20DE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Class Location: </label>
+      <label xml:lang="en">Class Location: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>location</name>
@@ -183,13 +199,15 @@
      <Item type="Field" id="3170E39EAE9D4A77B63314A94A30B7AE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Last Modified</label>
+      <label xml:lang="en">Last Modified</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>modified_by_id</name>
@@ -204,11 +222,13 @@
      <Item type="Field" id="D3461DE441AF435694433DC9BBDE1F7C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
@@ -224,14 +244,16 @@
      <Item type="Field" id="989D4A9DC7E04E98A6C37051DC582890" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>10</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Training Course ID</label>
+      <label xml:lang="en">Training Course ID</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>source_id</name>
@@ -246,14 +268,16 @@
      <Item type="Field" id="8475A5B5392D46F1B6146FB5282F1DF0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>10</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Class Start Date:</label>
+      <label xml:lang="en">Class Start Date:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>startdate</name>
@@ -269,13 +293,15 @@
      <Item type="Field" id="34A17B6E784946499ECA1ED76BEF7200" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Class Status: </label>
+      <label xml:lang="en">Class Status: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>

@@ -1,24 +1,25 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="4E7AF65CF2AA4912B7B5FDF44AA13B51" action="add" dependencyLevel="0">
   <auto_search>0</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <hide_in_all>0</hide_in_all>
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Pre Requisites</label>
+  <label xml:lang="en">Pre Requisites</label>
   <name>TrainingCourse PreReqs</name>
   <new_show_related>0</new_show_related>
-  <related_id keyed_name="TrainingCourse" type="ItemType" name="ItemType">9FE119E303744BEC80874ABFBFF613BB</related_id>
+  <related_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</related_id>
   <related_notnull>0</related_notnull>
   <related_option>2</related_option>
   <relationship_id keyed_name="TrainingCourse PreReqs" type="ItemType" name="TrainingCourse PreReqs">
    <Item type="ItemType" id="4C6EB8676DF640DC9E4773468C7CBFC2" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>TRAININGCOURSE_PREREQS</instance_data>
@@ -28,7 +29,6 @@
     <manual_versioning>0</manual_versioning>
     <name>TrainingCourse PreReqs</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>

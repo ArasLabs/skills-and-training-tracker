@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Permission" id="26FB507DDF724FB5BB7CAC624D0ABC3C" action="add">
   <is_private>0</is_private>
   <name>TrainingClass</name>
@@ -6,13 +6,16 @@
    <Item type="Access" id="EB18832DF53A49A2B7E73A699CF1B243" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>256</sort_order>
     <source_id keyed_name="TrainingClass" type="Permission">26FB507DDF724FB5BB7CAC624D0ABC3C</source_id>
    </Item>

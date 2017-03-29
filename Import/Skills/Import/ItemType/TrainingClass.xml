@@ -1,0 +1,399 @@
+﻿<AML>
+ <Item type="ItemType" id="9C59381A73C849A8A5E061139CF7E719" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>1</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>TRAININGCLASS</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>1</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Class</label>
+  <label_plural xml:lang="en">Classes</label_plural>
+  <large_icon>../images/Icons/32x32/32x32_files.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>TrainingClass</name>
+  <open_icon>../images/Icons/16x16/16x16_files.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>1</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="CAE48C68AF2340F9BF0CFB22975CAE75" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="TrainingClass" type="Permission">26FB507DDF724FB5BB7CAC624D0ABC3C</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+   </Item>
+  
+   <Item type="Can Add" id="1788D9C135C74FB28D6670625E54675C" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="C32C56D52821454B963E5166DBF530F0" action="add">
+    <related_id keyed_name="TrainingClass" type="Life Cycle Map">F992FF5CBCAB447087BCE216CFBE3625</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+   </Item>
+   <Item type="Property" id="93E4634EDCD14936AEE12B82F2B97B1B" action="add">
+    <classification>/*</classification>
+    <column_alignment>right</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>source_id</name>
+      <source_id>9C59381A73C849A8A5E061139CF7E719</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>cost</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>TrainingCourse</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Cost</label>
+    <name>coursecost</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="2CD967DE4BDF4B7083BB1EDD9420E664" action="add">
+    <classification>/*</classification>
+    <column_alignment>center</column_alignment>
+    <column_width>90</column_width>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>source_id</name>
+      <source_id>9C59381A73C849A8A5E061139CF7E719</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>days</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>TrainingCourse</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Duration</label>
+    <name>coursedays</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="DFC34DD28EB945BBAFC2ABED54AF71B0" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>source_id</name>
+      <source_id>9C59381A73C849A8A5E061139CF7E719</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>description</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>TrainingCourse</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Description</label>
+    <name>coursedescription</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="3A15F84C36EC4AB1AC1C00036E8EB444" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <column_width>200</column_width>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>source_id</name>
+      <source_id>9C59381A73C849A8A5E061139CF7E719</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>name</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>TrainingCourse</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Course Name</label>
+    <name>coursename</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="954C2EA8A319456290F430BEDA49622D" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Instructor</label>
+    <name>instructor</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="EDA7DDB0DCF547E1853EFDE4550A77D7" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>source_id</name>
+      <source_id>9C59381A73C849A8A5E061139CF7E719</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>item_number</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>TrainingCourse</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Item Number</label>
+    <name>item_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="E3A17B86F2854117ACFCA8E59DED0FB7" action="add">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <column_width>150</column_width>
+    <data_source keyed_name="TrainingLocations">10C8B1D6D3A748FB96429647B44887AB</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Location</label>
+    <name>location</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="CC8A00062588453EA271F17584DA575C" action="add">
+    <classification>/*</classification>
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Date</label>
+    <name>startdate</name>
+    <order_by>1</order_by>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="AE78C7CF064E40B9BD88270A9D923502" action="add">
+    <classification>/*</classification>
+    <column_alignment>center</column_alignment>
+    <column_width>90</column_width>
+    <data_type>federated</data_type>
+    <default_value xml:lang="en">0</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en"># Students</label>
+    <name>students</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Server Event" id="478B7079A9F64B5CA6D36CA92F9BEA88" action="add">
+    <classification>/*</classification>
+    <related_id keyed_name="TrainingClass onGet" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>TrainingClass onGet</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterGet</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+   </Item>
+   <Item type="TOC Access" id="D4F5AE1060A645DEA625161F3867E33D" action="add">
+    <category>Skills Management</category>
+    <classification>/*</classification>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+   </Item>
+   <Item type="View" id="B6E9F028A4424D329DD7016099027080" action="add">
+    <classification>/*</classification>
+    <client>js</client>
+    <related_id keyed_name="TrainingClass" type="Form">7CE864E1E1254E899A93BA3AF0F8B86B</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <type>default</type>
+   </Item></Relationships>
+ </Item>
+ <Item type="ItemType" id="9C59381A73C849A8A5E061139CF7E719" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='9C59381A73C849A8A5E061139CF7E719' and name='related_id'">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <name>related_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9C59381A73C849A8A5E061139CF7E719' and name='source_id'">
+    <classification>/*</classification>
+    <column_alignment>left</column_alignment>
+    <column_width>150</column_width>
+    <data_source keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Training Course</label>
+    <name>source_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9C59381A73C849A8A5E061139CF7E719' and name='state'">
+    <classification>/*</classification>
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="TrainingClass" type="ItemType" name="TrainingClass">9C59381A73C849A8A5E061139CF7E719</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

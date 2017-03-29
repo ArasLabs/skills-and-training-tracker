@@ -1,6 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="4EBE4484EEDB459F947D3064021202E8" action="add">
-  <height>175</height>
+  <classification>/*</classification>
+  <height>300</height>
   <name>Skill</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>700</width>
@@ -10,19 +11,22 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Skill" type="Form">4EBE4484EEDB459F947D3064021202E8</source_id>
     <Relationships>
      <Item type="Field" id="F6FABC563FD4491194AE4D7F8BC1A6A2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Description</label>
+      <label xml:lang="en">Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -39,6 +43,7 @@
      </Item>
      <Item type="Field" id="6EB7C63CB57B44DF9AE54F2544AB8654" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
@@ -52,6 +57,7 @@
 </b></p>
 </td></tr></table>
 ]]></html_code>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
       <list_no_blank>0</list_no_blank>
       <name>item_info</name>
@@ -65,13 +71,15 @@
      <Item type="Field" id="4664C27BD8094378B356F6258DBA0DAA" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Skill ID</label>
+      <label xml:lang="en">Skill ID</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -87,13 +95,15 @@
      <Item type="Field" id="D5683F035FDE4BA5BE4FAFD2FD9AFCEA" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Responsible Manager</label>
+      <label xml:lang="en">Responsible Manager</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -108,14 +118,16 @@
      <Item type="Field" id="70229CC6C6054FB1A076D06A5BF49261" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>5</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Skill Certification Expires (months)</label>
+      <label xml:lang="en">Skill Certification Expires (months)</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>renewal_period</name>

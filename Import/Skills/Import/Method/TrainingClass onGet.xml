@@ -1,5 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="3AA8D0EFD0144CB5A85C282957B99C9F" action="add">
+  <classification>/*</classification>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[Dim myInnovator As Innovator = Me.newInnovator()
 Dim allClasses = Me.GetItemsByXPath("//Item[@type='TrainingClass']")
 Dim SqlResults, RowItem As Item
@@ -7,10 +9,14 @@ Dim SqlResults, RowItem As Item
 Dim sql As String
 Dim i As Integer = 0
 For i=0 To allClasses.getItemCount()-1
-	sql = "SELECT count(*) FROM [TrainingClass_Contact] WHERE source_id='" & allClasses.getItemByIndex(i).getID() & "'"
+	sql = "SELECT count(*) FROM innovator.[TrainingClass_Identity] WHERE source_id='" & allClasses.getItemByIndex(i).getID() & "'"
 	SqlResults  = myInnovator.applySQL(sql)
-    RowItem     = SqlResults.getItemsByXPath("//row").getItemByIndex(0)
-	allClasses.getItemByIndex(i).setProperty("students", RowItem.getProperty("column1"," ") )
+	Dim testSqlRes = SqlResults.getItemsByXPath("//row").dom.InnerText
+	If (testSqlRes = 0)
+	  allClasses.getItemByIndex(i).setProperty("students", 0)
+	  Return Me
+        End If
+	allClasses.getItemByIndex(i).setProperty("students", testSqlRes)
 Next
 Return Me]]></method_code>
   <method_type>VB</method_type>

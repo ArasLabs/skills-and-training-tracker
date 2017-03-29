@@ -1,16 +1,17 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="9FE119E303744BEC80874ABFBFF613BB" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
   <default_page_size>25</default_page_size>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
   <instance_data>TRAININGCOURSE</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
-  <label>Training Course</label>
-  <label_plural>Training Courses</label_plural>
+  <label xml:lang="en">Training Course</label>
+  <label_plural xml:lang="en">Training Courses</label_plural>
   <large_icon>../images/Icons/32x32/32x32_fields.gif</large_icon>
   <manual_versioning>0</manual_versioning>
   <name>TrainingCourse</name>
@@ -27,6 +28,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
    </Item>
+  
    <Item type="Can Add" id="2C33C616D6A84174A511089D0F95715C" action="add">
     <can_add>1</can_add>
     <related_id keyed_name="World" type="Identity">
@@ -37,7 +39,13 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
    </Item>
+   <Item type="ItemType Life Cycle" id="9F026A663929476EBB745AFECC26914E" action="add">
+    <related_id keyed_name="TrainingCourse" type="Life Cycle Map">60C7F89085FF4CCB8942A9F5A006A101</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+   </Item>
    <Item type="Property" id="310FBD1C7AE14249865FA394601AC2A0" action="add">
+    <classification>/*</classification>
     <column_alignment>right</column_alignment>
     <data_type>integer</data_type>
     <is_hidden>0</is_hidden>
@@ -46,14 +54,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Cost (dollars)</label>
+    <label xml:lang="en">Cost (dollars)</label>
     <name>cost</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3076</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="84CAEB0B87DB420A8BF1737FBFFA136D" action="add">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>70</column_width>
     <data_type>integer</data_type>
@@ -63,14 +73,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Days</label>
+    <label xml:lang="en">Days</label>
     <name>days</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="A2A75C005C124ECABE692DB52A641A1B" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>600</column_width>
     <data_type>text</data_type>
@@ -80,14 +92,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Description</label>
+    <label xml:lang="en">Description</label>
     <name>description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>4</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="F7DD243127914445821D90B65FEEBC24" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_type>string</data_type>
@@ -98,7 +112,7 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <keyed_name_order>1</keyed_name_order>
-    <label>ID</label>
+    <label xml:lang="en">ID</label>
     <name>item_number</name>
     <order_by>1</order_by>
     <range_inclusive>0</range_inclusive>
@@ -106,8 +120,10 @@
     <sort_order>0</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="7902A5625DEB44BBBBD05274B9FF5388" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>200</column_width>
     <data_type>string</data_type>
@@ -117,16 +133,18 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Name</label>
+    <label xml:lang="en">Name</label>
     <name>name</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>2</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
     <stored_length>48</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="TOC Access" id="810C905EB000466683E7AB6D5B4C00F7" action="add">
     <category>Skills Management</category>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
@@ -136,6 +154,7 @@
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
    </Item>
    <Item type="View" id="A49E2E582A85499DB11C3E7034E1AEBC" action="add">
+    <classification>/*</classification>
     <client>js</client>
     <related_id keyed_name="TrainingCourse" type="Form">7DFC77270534476CB12D008E59CCBD33</related_id>
     <role keyed_name="World" type="Identity">
@@ -146,12 +165,12 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
     <type>default</type>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="9FE119E303744BEC80874ABFBFF613BB" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='9FE119E303744BEC80874ABFBFF613BB' and name='state'">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>90</column_width>
     <data_type>string</data_type>
@@ -161,13 +180,14 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <name>state</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="TrainingCourse" type="ItemType" name="TrainingCourse">9FE119E303744BEC80874ABFBFF613BB</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

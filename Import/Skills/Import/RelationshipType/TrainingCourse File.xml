@@ -1,7 +1,8 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="090A5203F7EA43049FC9CEA11C462BA9" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <grid_view>right</grid_view>
@@ -9,17 +10,17 @@
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Materials</label>
+  <label xml:lang="en">Materials</label>
   <name>TrainingCourse File</name>
   <new_show_related>0</new_show_related>
-  <related_id keyed_name="File" type="ItemType" name="ItemType">8052A558B9084D41B9F11805E464F443</related_id>
+  <related_id keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</related_id>
   <related_notnull>1</related_notnull>
   <related_option>1</related_option>
   <relationship_id keyed_name="TrainingCourse File" type="ItemType" name="TrainingCourse File">
    <Item type="ItemType" id="BB0F69D8F3A34F0E98809EE554351D80" action="add">
     <allow_private_permission>0</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>TRAININGCOURSE_FILE</instance_data>
@@ -29,12 +30,12 @@
     <manual_versioning>0</manual_versioning>
     <name>TrainingCourse File</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
     <Relationships>
      <Item type="Property" id="DA128FE99D054FF796E9C3513BE4D81D" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <column_width>300</column_width>
       <data_type>string</data_type>
@@ -44,7 +45,7 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Description</label>
+      <label xml:lang="en">Description</label>
       <name>description</name>
       <order_by>1</order_by>
       <range_inclusive>0</range_inclusive>
@@ -52,6 +53,7 @@
       <sort_order>0</sort_order>
       <source_id keyed_name="TrainingCourse File" type="ItemType" name="TrainingCourse File">BB0F69D8F3A34F0E98809EE554351D80</source_id>
       <stored_length>128</stored_length>
+      <track_history>0</track_history>
      </Item>
     </Relationships>
    </Item>
@@ -62,6 +64,7 @@
  <Item type="ItemType" id="BB0F69D8F3A34F0E98809EE554351D80" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='BB0F69D8F3A34F0E98809EE554351D80' and name='related_id'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
     <data_type>item</data_type>
@@ -77,6 +80,7 @@
     <readonly>0</readonly>
     <sort_order>3200</sort_order>
     <source_id keyed_name="TrainingCourse File" type="ItemType" name="TrainingCourse File">BB0F69D8F3A34F0E98809EE554351D80</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>
